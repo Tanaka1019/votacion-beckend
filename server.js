@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // Conexión a MongoDB (cambia la URL por la tuya de MongoDB Atlas si quieres)
-mongoose.connect('mongodb://localhost:27017/votaciones', {
+mongoose.connect('mongodb+srv://ivanlajusticia:lainjusticia09!@lajus.iplxslb.mongodb.net/?retryWrites=true&w=majority&appName=Lajus', {
 useNewUrlParser: true,
 useUnifiedTopology: true,
 });
