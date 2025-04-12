@@ -11,6 +11,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://ivanlajusticia:lainjusticia09!@lajus.iplxslb.mongodb.net/?retryWrites=true&w=majority&appName=Lajus', {
 useNewUrlParser: true,
 useUnifiedTopology: true,
+ssl: true,
 });
 
 // Modelo de voto
