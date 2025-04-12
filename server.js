@@ -53,4 +53,4 @@ res.json({ average: avg.toFixed(2), count: votes.length });
 });
 
 const PORT = 3000;
-app.listen(PORT, () => console.log(Servidor corriendo en http://localhost:${PORT}));
+app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
